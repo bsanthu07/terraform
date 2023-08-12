@@ -1,0 +1,11 @@
+git clone https://github.com/asquarezone/TerraformZone.git
+
+# azure
+cd july23/ntier-azure
+terraform init
+terraform apply -var-file="dev.tfvars"
+
+#aws
+cd july23/ntier-aws
+terraform init
+terraform apply -var-file="dev.tfvars"
